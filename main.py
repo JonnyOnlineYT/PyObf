@@ -1,7 +1,7 @@
 import random
 import re
 import base64
-fil = open("J:/python/obf/in.py")
+fil = open("in.py")
 out = fil.read()
 version = 5
 commentstring = " #$$$$OBFUSCATED WITH PYOBF$$$$ - "
@@ -131,7 +131,7 @@ def intrnlObf(modify):
 	return modify
 
 def writeToFile(inp):
-	outfile = open("J:/python/obf/out.py", "w")
+	outfile = open("out.py", "w")
 	outfile.write(inp)
 
 def doTitle():
